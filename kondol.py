@@ -576,7 +576,7 @@ def crack_file():
 def setting():
 	print(f'{x}>> 1. Akun Old ')
 	print('>> 2. Akun New ')
-	print('>>3. Random ')
+	print('>> 3. Random ')
 	hu = input('>> Pilih : ')
 	if hu in ['1','01']:
 		for tua in sorted(id):

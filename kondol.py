@@ -147,7 +147,7 @@ def banner():
 \t  |  __'.[ `/'`\]`'_\ : [_   ] [_   ]/ /__\\[ `/'`\] 
 \t _| |__) || |    // | |, .' /_  .' /_| \__., | |     	
 \t|_______/[___]   \'-;__/[_____][_____]'.__.'[___]    	
-			{m}•{k}•{h}•{sir} Author : Alvino_Adijaya {x}{m}•{k}•{h}•{x}''')
+			{m}•{k}•{h}•{sir} Author : Ikiwz-XD {x}{m}•{k}•{h}•{x}''')
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login():
 	try:
@@ -461,7 +461,7 @@ def grup1(urls):
 	print(f'>> Klik {k}Ctrl+C{x} Untuk {m}Stop{x} Dump !!')
 	while True:
 		try:
-			ua = 'Mozilla/5.0 (SymbianOS/9.3; Series60/3.2 NokiaE52-1/052.003; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.6.2 3gpp-gba'
+			ua = 'NokiaX3-00/2.0 (p) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+'
 			miskinlu = {"user-agent": ua}
 			try:
 				url = use[0]
@@ -598,7 +598,7 @@ def setting():
 	else:
 		print('>> Pilih Yang Bener Kontooll ')
 		exit()
-	print('>> 1. Mobile ')
+	print('>> 1. Mobile [Rekomend]')
 #	print('>> 2. Mbasic ')
 #	print('>> 3. Touch  ')
 #	print('>> 4. Mtouch ')
@@ -639,7 +639,7 @@ def setting():
 	passwrd()
 #-------------------[ BAGIAN-WORDLIST ]------------#
 def passwrd():
-	print(f'>>>>> {m}•{k}•{h}•{x} Sedang Menggeser Matahari {m}•{k}•{h}•{x} <<<<< ')
+	print(f'>>>>> {m}•{k}•{h}•{x} Sedang Menggeser hatiku ke kamu :v {m}•{k}•{h}•{x} <<<<< ')
 	print('')
 	print(f'>> Hasil {h}OK{x} Tersimpan Di : {h}OK/%s {x}'%(okc))
 	print(f'>> Hasil {k}CP{x} Tersimpan Di : {k}CP/%s {x}'%(cpc))

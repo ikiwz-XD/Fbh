@@ -143,7 +143,7 @@ def back():
 def banner():
 	print(f'''\t{asu} ______                                              
 \t|_   _ \                                             
-\t  | |_) | _ .--.  ,--.   ____   ____  .---.  _ .--.  
+\t  | |_) | _ .--.  ,--.   ____   ____  .---.  _ .--.  RsQ
 \t  |  __'.[ `/'`\]`'_\ : [_   ] [_   ]/ /__\\[ `/'`\] 
 \t _| |__) || |    // | |, .' /_  .' /_| \__., | |     	
 \t|_______/[___]   \'-;__/[_____][_____]'.__.'[___]    	
@@ -344,7 +344,7 @@ def dump_massal():
 	except IOError:
 		exit()
 	try:
-		jum = int(input('>> Mau Berapa Target Njing ? : '))
+		jum = int(input('>> Mau Berapa Target cuy? : '))
 	except ValueError:
 		print('>> Masukkan Angka Anjing, Malah Huruff ')
 		exit()
@@ -576,7 +576,7 @@ def crack_file():
 def setting():
 	print(f'{x}>> 1. Akun Old ')
 	print('>> 2. Akun New ')
-	print('')
+	print('>>3. Random ')
 	hu = input('>> Pilih : ')
 	if hu in ['1','01']:
 		for tua in sorted(id):

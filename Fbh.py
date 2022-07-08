@@ -576,7 +576,7 @@ def crack_file():
 def setting():
 	print(f'{x}>> 1. Akun Old ')
 	print('>> 2. Akun New ')
-	print('')
+	print(' 3. Akun Random')
 	hu = input('>> Pilih : ')
 	if hu in ['1','01']:
 		for tua in sorted(id):
@@ -591,17 +591,17 @@ def setting():
 		for xmud in range(bcm):
 			id2.append(muda[bcmi])
 			bcmi -=1
-#	elif hu in ['3','03']:
-#		for bacot in id:
-#			xx = random.randint(0,len(id2))
-#			id2.insert(xx,bacot)
+	elif hu in ['3','03']:
+		for bacot in id:
+			xx = random.randint(0,len(id2))
+			id2.insert(xx,bacot)
 	else:
 		print('>> Pilih Yang Bener Kontooll ')
 		exit()
 	print('>> 1. Mobile ')
-#	print('>> 2. Mbasic ')
-#	print('>> 3. Touch  ')
-#	print('>> 4. Mtouch ')
+	print('>> 2. Mbasic ')
+	print('>> 3. Touch  ')
+	print('>> 4. Mtouch ')
 	print('')
 	hc = input('>> Pilih : ')
 	if hc in ['1','01']:
@@ -609,10 +609,10 @@ def setting():
 	elif hc in ['']:
 		print('>> Pilih Yang Bener Kontol ')
 		setting()
-#	elif hc in ['2','02']:
-#		method.append('free')
-#	elif hc in ['3','03']:
-#		method.append('touch')
+	elif hc in ['2','02']:
+		method.append('free')
+	elif hc in ['3','03']:
+		method.append('touch')
 	elif hc in ['4','04']:
 		method.append('mbasic')
 	else:

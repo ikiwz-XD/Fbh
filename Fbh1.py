@@ -209,7 +209,6 @@ def menu(my_name,my_id):
 	print(f'>> Your Ip  : {ip}')
 	print(f'>> Github   : {gh}')
 	print('')
-        print('Coba satu satu ngab! ')
 	print('>>•<< 1. Crack Publik ')
 	print('>>•<< 2. Crack Follower ')
 	print('>>•<< 3. Crack Grup   ')

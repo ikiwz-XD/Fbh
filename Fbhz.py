@@ -462,7 +462,7 @@ def grup1(urls):
 	print(f'>> Klik {k}Ctrl+C{x} Untuk {m}Stop{x} Dump !!')
 	while True:
 		try:
-			ua = 'Mozilla/5.0 (SymbianOS/9.3; Series60/3.2 NokiaE52-1/052.003; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.6.2 3gpp-gba'
+			ua = 'Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 Nokia5630d-1/011.018; Profile/MIDP-2.1 Configuration/CLDC-1.1)<br>AppleWebKit/413 (KHTML, like Gecko)<br>Safari/413'
 			miskinlu = {"user-agent": ua}
 			try:
 				url = use[0]

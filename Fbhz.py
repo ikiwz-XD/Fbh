@@ -1124,7 +1124,7 @@ if __name__=='__main__':
 	except:pass
 	try:os.system('clear')
 	except:pass
-	alvino_xy(f'\n\t{x}——> {h}Gunakan Script Ini Sewajarnya Tod !!\n\t{x}——> {h}Jika Ada Bug/Error Bilang Yahh\n\t{x}——> {h}ikiw Sehat Selalu Yah\n\t{x}——> {h}Semoga Di Mudahkan Rezekinya Amin\n\t{x}——> {h}jangan Lupa CoL1 !{x}')
+	alvino_xy(f'\n\t{x}——> {h}Gunakan Script Ini Sewajarnya Tod !!\n\t{x}——> {h}Kenalin gw ikiw kls : XI TKJ A\n\t{x}——> {h}ikiw Sehat Selalu Yah\n\t{x}——> {h}Semoga Di Mudahkan Rezekinya Amin\n\t{x}——> {h}jangan Lupa CoL1 !{x}')
 	time.sleep(3)
 	login()
 

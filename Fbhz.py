@@ -1130,4 +1130,4 @@ if __name__=='__main__':
 	login()
 
 #>>>>> THANKS TO THIS HERE <<<<<<<#
-#>>>>> Alvino_Adijaya_Xy <<<<<#
+#>>>>> R.SR <<<<<#

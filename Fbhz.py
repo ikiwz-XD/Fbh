@@ -205,17 +205,17 @@ def menu(my_name,my_id):
 	ip = requests.get("https://api.ipify.org").text
 	gh = 'github.com/ikiwz-XD'
 	cetak(nel('\tSelamat Datang [yellow]%s[white] Ngentod'%(my_name)))
-	print(f'[•] Your Idz : '+str(my_id))
-	print(f'[•] Your Ip  : {ip}')
-	print(f'[•] Github   : {gh}')
+	print(f' →[•] Your Idz : '+str(my_id))
+	print(f' →[•] Your Ip  : {ip}')
+	print(f' →[•] Github   : {gh}')
 	print('')
-	print('-[•]- 1. Crack Publik ')
-	print('-[•]- 2. Crack Follower ')
-	print('-[•]- 3. Crack Grup   ')
-	print('-[•]- 4. Crack File	')
-	print('-[•]- 5. Hasil Crack  ')
-	print('-[•]- 0. Keluar       ')
-	_____alvino__adijaya_____ = input('\n>> Pilih : ')
+	print('-[•]- ①. Crack Publik ')
+	print('-[•]- ②. Crack Follower ')
+	print('-[•]- ③. Crack Grup   ')
+	print('-[•]- ④. Crack File	')
+	print('-[•]- ⑤. Hasil Crack  ')
+	print('-[•]- ⓪. Keluar       ')
+	_____alvino__adijaya_____ = input('\n•>> Pilih : ')
 	if _____alvino__adijaya_____ in ['1']:
 		dump_massal()
 	elif _____alvino__adijaya_____ in ['2']:

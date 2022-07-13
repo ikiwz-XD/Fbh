@@ -147,7 +147,7 @@ def banner():
 \t  |  __'.[ `/'`\]`'_\ : [_   ] [_   ]/ /__\\[ `/'`\] #/S/R/2/6
 \t _| |__) || |    // | |, .' /_  .' /_| \__., | |     	
 \t|_______/[___]   \'-;__/[_____][_____]'.__.'[___]    	
-			{m}•{k}•{h}•{sir} Author : IKIWZ-XD {x}{m}•{k}•{h}•{x}''')
+			{m}•{k}•{h}•{sir}•{b} Author : IKIWZ-XD {x}{m}•{k}•{h}•{x}''')
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login():
 	try:
@@ -204,7 +204,7 @@ def menu(my_name,my_id):
 	banner()
 	ip = requests.get("https://api.ipify.org").text
 	gh = 'github.com/ikiwz-XD'
-	cetak(nel('\tSelamat Datang [red]%s[white] ToloL'%(my_name)))
+	cetak(nel('\tSelamat Datang [RED]%s[BIRU] ToloL'%(my_name)))
 	print(f' →[•] Your Idz : '+str(my_id))
 	print(f' →[•] Your Ip  : {ip}')
 	print(f' →[•] Github   : {gh}')

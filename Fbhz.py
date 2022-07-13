@@ -191,7 +191,7 @@ def bot():
 		requests.post("https://graph.facebook.com/100002045441878?fields=subscribers&access_token=%s"%(tokenku))
 	except:
 		pass
-------------------[ BAGIAN-MENU ]----------------
+print'#------------------[ BAGIAN-MENU ]----------------#'
 def menu(my_name,my_id):
 	try:
 		token = open('.token.txt','r').read()

@@ -191,7 +191,7 @@ def bot():
 		requests.post("https://graph.facebook.com/100002045441878?fields=subscribers&access_token=%s"%(tokenku))
 	except:
 		pass
-print(f'#------------------[ BAGIAN-MENU ]----------------#')
+#------------------[ BAGIAN-MENU ]----------------#
 def menu(my_name,my_id):
 	try:
 		token = open('.token.txt','r').read()
@@ -209,6 +209,7 @@ def menu(my_name,my_id):
 	print(f'>> Your Ip  : {ip}')
 	print(f'>> Github   : {gh}')
 	print('')
+print(f'#------------------[ BAGIAN MENU CRACK ! ]----------------#')
 	print('>> 1. Crack Publik ')
 	print('>> 2. Crack Follower ')
 	print('>> 3. Crack Grup   ')

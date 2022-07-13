@@ -209,7 +209,7 @@ def menu(my_name,my_id):
 	print(f'>> Your Ip  : {ip}')
 	print(f'>> Github   : {gh}')
 	print('')
-        print(f '#------------------[ BAGIAN MENU CRACK ! ]----------------#')
+        print('#------------------[ BAGIAN MENU CRACK ! ]----------------# ')
         print('')
 	print('>> 1. Crack Publik ')
 	print('>> 2. Crack Follower ')

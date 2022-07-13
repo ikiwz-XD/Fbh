@@ -204,7 +204,7 @@ def menu(my_name,my_id):
 	banner()
 	ip = requests.get("https://api.ipify.org").text
 	gh = 'github.com/ikiwz-XD'
-	cetak(nel('\tSelamat Datang [yellow]%s[white] ToloL'%(my_name)))
+	cetak(nel('\tSelamat Datang [blue]%s[yellow] ToloL'%(my_name)))
 	print(f' →[•] Your Idz : '+str(my_id))
 	print(f' →[•] Your Ip  : {ip}')
 	print(f' →[•] Github   : {gh}')

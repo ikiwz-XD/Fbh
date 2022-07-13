@@ -208,8 +208,7 @@ def menu(my_name,my_id):
 	print(f'>> Your Idz : '+str(my_id))
 	print(f'>> Your Ip  : {ip}')
 	print(f'>> Github   : {gh}')
-
-        print(f'------------[ BAGIAN MENU CRACK ]------------')
+        prin('' )
 	print('>> 1. Crack Publik ')
 	print('>> 2. Crack Follower ')
 	print('>> 3. Crack Grup   ')

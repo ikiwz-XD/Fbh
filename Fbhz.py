@@ -344,7 +344,7 @@ def dump_massal():
 	except IOError:
 		exit()
 	try:
-		jum = int(input('>> Mau Berapa Target Njing ? : '))
+		jum = int(input('>> Mau Berapa Target Tod ? : '))
 	except ValueError:
 		print('>> Masukkan Angka Anjing, Malah Huruff ')
 		exit()
@@ -461,7 +461,7 @@ def grup1(urls):
 	print(f'>> Klik {k}Ctrl+C{x} Untuk {m}Stop{x} Dump !!')
 	while True:
 		try:
-			ua = 'Mozilla/5.0 (SymbianOS/9.3; Series60/3.2 NokiaE52-1/052.003; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.6.2 3gpp-gba'
+			ua = 'Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-G965U) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/10.2 Chrome/71.0.3578.99 Mobile Safari/537.36'
 			miskinlu = {"user-agent": ua}
 			try:
 				url = use[0]

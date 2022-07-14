@@ -600,7 +600,7 @@ def setting():
 	else:
 		print('>> Pilih Yang Bener Kontooll ')
 		exit()
-	print('[•] 1. Mobile [ rekomend ]')
+	print('[•] 1. Mobile  [ rekomended ]')
 	print('[•] 2. Mbasic ')
 	print('[•] 3. Touch  ')
 	print('[•] 4. Mtouch ')
@@ -631,7 +631,7 @@ def setting():
 	pwplus=input('[•] Tambahkan Password Manual ( Y/t ) ')
 	if pwplus in ['y','Y']:
 		pwpluss.append('ya')
-		cetak(nel('[[cyan]•[white]] Masukkan Katasandi Tambahan Minimal 6 Karakter\n[[cyan]•[white]] Contoh :[green] kakak,ngentod,adik[white] '))
+		cetak(nel('[[cyan]•[white]] Masukkan Katasandi Tambahan Minimal 6 Karakter\n[[cyan]•[white]] Contoh :[green] Sayang,indonesia,ngentot[white] '))
 		pwku=input('[•] Masukkan Password Tambahan : ')
 		pwkuh=pwku.split(',')
 		for xpw in pwkuh:
@@ -1126,8 +1126,8 @@ if __name__=='__main__':
 	except:pass
 	try:os.system('clear')
 	except:pass
-	alvino_xy(f'\n\t{x}——> {h}Gunakan Script Ini Sewajarnya Tod !!\n\t{x}——> {h}Kenalin gw ikiw kls : XI TKJ A\n\t{x}——> {h}ikiw Sehat Selalu Yah\n\t{x}——> {h}Semoga Di Mudahkan Rezekinya Amin\n\t{x}——> {h}jangan Lupa CoL1 !{x}')
-	time.sleep(3)
+	alvino_xy(f'\n\t{x}——> {h}WELCOME TO SCRIPT KIWZ-XD !!\n\t{x}——> {h}Kenalin gw ikiw kls : XI TKJ A\n\t{x}——> {h}ikiw Sehat Selalu Yah\n\t{x}——> {h}Aminnn ....!!\n\t{x}——> {h}SARAN PAKEK KARTU BUKAN WIFI! !{x}')
+	time.sleep(2)
 	login()
 
 #>>>>> THANKS TO THIS HERE <<<<<<<#

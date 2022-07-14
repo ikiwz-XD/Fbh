@@ -173,7 +173,7 @@ def login_lagi334():
 	try:
 		os.system('clear')
 		banner()
-		cetak(nel('\t©©© Saran Ektensi : [green]Cookiedough[white] ©©©'))
+		cetak(nel('\t©©© Saran Ektensi : [green]Cookiedough/BoostFacebook[white] ©©©'))
 		asu = random.choice([m,k,h,b,u])
 		cookie=input(f'  [{h}•{x}] Masukkan Cookies :{asu} ')
 		data = requests.get("https://business.facebook.com/business_locations", headers = {"user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.92 Mobile Safari/537.36","referer": "https://www.facebook.com/","host": "business.facebook.com","origin": "https://business.facebook.com","upgrade-insecure-requests" : "1","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7","cache-control": "max-age=0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8","content-type":"text/html; charset=utf-8"}, cookies = {"cookie":cookie}) 
@@ -210,10 +210,10 @@ def menu(my_name,my_id):
 	print(f' →{m}[•] Your Ip  : {ip}')
 	print(f' →{k}[•] Github   : {gh}')
 	print('')
-	print('  →[•] 1. Crack Publik  [ fitur ON ]')
-	print('  →[•] 2. Crack Follower [ fitur off ] ')
-	print('  →[•] 3. Crack Grup [ Fitur off ] ')
-	print('  →[•] 4. Crack File [ Fitur ON ]	')
+	print('  →[•] 1. Crack Publik  [ fitur √ ]')
+	print('  →[•] 2. Crack Follower [ fitur X ] ')
+	print('  →[•] 3. Crack Grup [ Fitur X ] ')
+	print('  →[•] 4. Crack File [ Fitur √ ]	')
 	print('  →[•] 5. Hasil Crack  ')
 	print('  →[•] 0. Keluar       ')
 	_____alvino__adijaya_____ = input('\n•>> Pilih : ')
@@ -356,7 +356,7 @@ def dump_massal():
 	yz = 0
 	for met in range(jum):
 		yz+=1
-		kl = input('[•] Masukkan Idz Yang Ke '+str(yz)+' : ')
+		kl = input('[•] Masukkan Id Yang Ke '+str(yz)+' : ')
 		uid.append(kl)
 	for userr in uid:
 		try:

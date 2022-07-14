@@ -206,12 +206,12 @@ def menu(my_name,my_id):
 	ip = requests.get("https://api.ipify.org").text
 	gh = 'github.com/ikiwz-XD'
 	cetak(nel('\tSelamat Datang [blue]%s[yellow] ToloL'%(my_name)))
-	print(f'{p}•{m}•{h}•{k}——>[•] Your Idz : '+str(my_id))
-	print(f'{m}•{h}•{p}•{k}——>[•] Your Ip  : {ip}')
-	print(f'{k}•{h}•{p}•{b}——>[•] Github   : {gh}')
+	print(f'{p}——>[•] Your Idz : '+str(my_id))
+	print(f'{m}——>[•] Your Ip  : {ip}')
+	print(f'{k}——>[•] Github   : {gh}')
 	print(f'')
-	print('  —>[•] 1. Crack Publik     [ fitur √ ]')
-	print('  —>[•] 2. Crack Pengikut   [ fitur √ ] ')
+	print('[blue]  —>[•] 1. Crack Publik     [ fitur √ ]')
+	print('[red] —>[•] 2. Crack Pengikut   [ fitur √ ] ')
 	print('  —>[•] 3. Crack Grup       [ Fitur X ] ')
 	print('  —>[•] 4. Crack File       [ Fitur √ ]	')
 	print('  —>[•] 5. Hasil Crack  ')

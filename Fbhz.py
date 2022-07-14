@@ -521,7 +521,7 @@ def grup1(urls):
 			lah()
 #-------------[ CRACK-FROM-FILE ]------------------#
 def crack_file():
-	try:vin = os.listdir('/sdcard/ALVINO-DUMP')
+	try:vin = os.listdir('/sdcard/IKIWZ-DUMP')
 	except FileNotFoundError:
 		print('>> File Tidak Ditemukan ')
 		time.sleep(2)
@@ -547,7 +547,7 @@ def crack_file():
 		cih = 0
 		lol = {}
 		for isi in vin:
-			try:hem = open('/sdcard/ALVINO-DUMP/'+isi,'r').readlines()
+			try:hem = open('/sdcard/IKIWZ-DUMP/'+isi,'r').readlines()
 			except:continue
 			cih+=1
 			if cih<100:
@@ -565,7 +565,7 @@ def crack_file():
 			print(f'{k}>> Pilih Yang Bener Kontol {x}')
 			time.sleep(3)
 			back()
-		try:lin = open('/sdcard/ALVINO-DUMP/'+geh,'r').read().splitlines()
+		try:lin = open('/sdcard/IKIWZ-XD/'+geh,'r').read().splitlines()
 		except:
 			print('>> File Tidak Ditemukan, Coba Lagi Nanti ')
 			time.sleep(2)

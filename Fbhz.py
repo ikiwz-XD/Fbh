@@ -212,7 +212,7 @@ def menu(my_name,my_id):
 	print(f'')
 	print('  —>[•] 1. Crack Publik     [ fitur √ ]')
 	print('  —>[•] 2. Crack Pengikut   [ fitur √ ] ')
-	print('  —>[•] 3. Crack Grup       [ Fitur X ] ')
+	print('  —>[•] 3. Crack Grup       [ Fitur √ ] ')
 	print('  —>[•] 4. Crack File       [ Fitur √ ]	')
 	print('  —>[•] 5. Hasil Crack  ')
 	print('  —>[•] 0. Keluar       ')
@@ -415,7 +415,7 @@ def lah():
 	print('')
 	pass
 	setting()
-def grup():
+def dump_grup():
 	print('')
 	id = input(f'{x}>> Masukkan Username Atau Idz Grup : ')
 	ua = 'Mozilla/5.0 (SymbianOS/9.3; Series60/3.2 NokiaE52-1/052.003; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.6.2 3gpp-gba'

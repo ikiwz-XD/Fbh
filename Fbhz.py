@@ -220,7 +220,7 @@ def menu(my_name,my_id):
 	if _____alvino__adijaya_____ in ['1']:
 		dump_massal()
 	elif _____alvino__adijaya_____ in ['2']:
-		dump_follower()
+		dump_pengikut()
 	elif _____alvino__adijaya_____ in ['3']:
 		grup()
 	elif _____alvino__adijaya_____ in ['4']:

@@ -144,7 +144,7 @@ def banner():
 	print(f'''\t{asu} ______                                              
 \t|_   _ \                                             
 \t  | |_) | _ .--.  ,--.   ____   ____  .---.  _ .--.  
-\t  |  __'.[ `/'`\]`'_\ : [_   ] [_   ]/ /__\\[ `/'`\] #/S/R/2/6
+\t  |  __'.[ `/'`\]`'_\ : [_   ] [_   ]/ /__\\[ `/'`\]/S/R/2/6
 \t _| |__) || |    // | |, .' /_  .' /_| \__., | |     	
 \t|_______/[___]   \'-;__/[_____][_____]'.__.'[___]
     	
@@ -211,9 +211,9 @@ def menu(my_name,my_id):
 	print(f' →[•] Github   : {gh}')
 	print('')
 	print('  [•] 1. Crack Publik ')
-	print('  [•] 2. Crack Follower ')
-	print('  [•] 3. Crack Grup   ')
-	print('  [•] 4. Crack File	')
+	print('  [•] 2. Crack Follower [ fitur off ] ')
+	print('  [•] 3. Crack Grup [ Fitur off ] ')
+	print('  [•] 4. Crack File [ Fitur off ]	')
 	print('  [•] 5. Hasil Crack  ')
 	print('  [•] 0. Keluar       ')
 	_____alvino__adijaya_____ = input('\n•>> Pilih : ')
@@ -579,7 +579,7 @@ def setting():
 	print('[•] 2. Akun New ')
 	print('[•] 3. Random')
 
-	hu = input('[•] Pilih : ')
+	hu = input('[•] Pilih==→ : ')
 	if hu in ['1','01']:
 		for tua in sorted(id):
 			id2.append(tua)
@@ -600,7 +600,7 @@ def setting():
 	else:
 		print('>> Pilih Yang Bener Kontooll ')
 		exit()
-	print('[•] 1. Mobile | rekomend |')
+	print('[•] 1. Mobile [ rekomend ]')
 	print('[•] 2. Mbasic ')
 	print('[•] 3. Touch  ')
 	print('[•] 4. Mtouch ')
@@ -641,7 +641,7 @@ def setting():
 	passwrd()
 #-------------------[ BAGIAN-WORDLIST ]------------#
 def passwrd():
-	print(f'[---------- {m}•{k}•{h}•{x} CRACK SEDANG BERLANGSUNG HARAP SABAR TOD !! {m}•{k}•{h}•{x} ----------] ')
+	print(f'[---------- {m}•{k}•{h}•{x}•{b}•{p} CRACK SEDANG BERLANGSUNG HARAP SABAR TOD !! {m}•{k}•{h}•{x} ----------] ')
 	print('')
 	print(f'[•] Hasil {h}OK{x} Tersimpan Di : {h}OK/%s {x}'%(okc))
 	print(f'[•] Hasil {k}CP{x} Tersimpan Di : {k}CP/%s {x}'%(cpc))
@@ -685,8 +685,8 @@ def passwrd():
 	print(f'[{b}•{x}]{h} OK : {h}%s '%(ok))
 	print(f'{x}[{b}•{x}]{k} CP : {k}%s{x} '%(cp))
 	print('')
-	print('>> Lanjut Crack Kembali ( Y/t ) ? ')
-	woi = input('>> Pilih : ')
+	print('[•] Lanjut Crack Kembali ( Y/t ) ? ')
+	woi = input('[•] Pilih : ')
 	if woi in ['y','Y']:
 		back()
 	else:

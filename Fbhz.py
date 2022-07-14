@@ -222,7 +222,7 @@ def menu(my_name,my_id):
 	elif _____alvino__adijaya_____ in ['2']:
 		dump_pengikut()
 	elif _____alvino__adijaya_____ in ['3']:
-		grup()
+		dump_grup()
 	elif _____alvino__adijaya_____ in ['4']:
 		crack_file()
 	elif _____alvino__adijaya_____ in ['5']:
@@ -1126,7 +1126,7 @@ if __name__=='__main__':
 	except:pass
 	try:os.system('clear')
 	except:pass
-	alvino_xy(f'\n\t{x}[=]——> {h}WELCOME TO SCRIPT KIWZ-XD !! <——[=]\n\t{x}[=]——> {h}Kenalin gw ikiw kls : XI TKJ A <——[=]\n\t{x}[=]——> {h}ikiw Sehat Selalu Yah <——[=]\n\t{x}[=]——> {h}Aminnn ....!! <——[=]\n\t{x}[=]——> {h}SARAN PAKEK KARTU BUKAN WIFI ! ! <——[=]{x}')
+	alvino_xy(f'\n\t{x}[=]——> {m}WELCOME TO SCRIPT KIWZ-XD !! <——[=]\n\t{x}[=]——> {m}Kenalin gw ikiw kls : XI TKJ A <——[=]\n\t{x}[=]——> {m}ikiw Sehat Selalu Yah <——[=]\n\t{x}[=]——> {m}Aminnn ....!! <——[=]\n\t{x}[=]——> {h}SARAN PAKEK KARTU BUKAN WIFI ! ! <——[=]{m}')
 	time.sleep(2)
 	login()
 

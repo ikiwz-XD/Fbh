@@ -209,7 +209,7 @@ def menu(my_name,my_id):
 	print(f'{p}•{m}•{h}•{k}——>[•] Your Idz : '+str(my_id))
 	print(f'{m}•{h}•{p}•{k}——>[•] Your Ip  : {ip}')
 	print(f'{k}•{h}•{p}•{b}——>[•] Github   : {gh}')
-	cetak(nel('\t——> SILAKAN COBA SATU-SATU <——'%s)
+	cetak(nel('\t——> SILAKAN COBA SATU-SATU <——'s)
 	print('  —>[•] 1. Crack Publik     [ fitur √ ]')
 	print('  —>[•] 2. Crack Pengikut   [ fitur √ ] ')
 	print('  —>[•] 3. Crack Grup       [ Fitur X ] ')

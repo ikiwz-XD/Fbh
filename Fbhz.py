@@ -579,7 +579,7 @@ def setting():
 	print('[•] 2. Akun New ')
 	print('[•] 3. Random  [Rekomended]')
 
-	hu = input('[•] Pilih==→ : ')
+	hu = input('[•] Pilih [•]—> : ')
 	if hu in ['1','01']:
 		for tua in sorted(id):
 			id2.append(tua)

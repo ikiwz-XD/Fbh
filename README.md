@@ -1,4 +1,4 @@
-# scrit termux crack facebook 
+# script seputar termux crack facebook 
 
 #BY KIWZ-XD
 Sc project!

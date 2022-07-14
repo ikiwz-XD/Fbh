@@ -641,7 +641,7 @@ def setting():
 	passwrd()
 #-------------------[ BAGIAN-WORDLIST ]------------#
 def passwrd():
-	print(f'[---------- {m}•{k}•{h}•{x}•{b}•{p} CRACK SEDANG BERLANGSUNG HARAP SABAR TOD !! {m}•{k}•{h}•{x} ----------] ')
+	print(f'[----- {m}•{k}•{h}•{x}•{b}•{p} CRACK SEDANG BERLANGSUNG HARAP SABAR TOD !! {m}•{k}•{h}•{x} ----] ')
 	print('')
 	print(f'[•] Hasil {h}OK{x} Tersimpan Di : {h}OK/%s {x}'%(okc))
 	print(f'[•] Hasil {k}CP{x} Tersimpan Di : {k}CP/%s {x}'%(cpc))

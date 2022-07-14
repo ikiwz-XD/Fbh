@@ -208,7 +208,7 @@ def menu(my_name,my_id):
 	cetak(nel('\tSelamat Datang [blue]%s[yellow] ToloL'%(my_name)))
 	print(f' →{p}[•] Your Idz : '+str(my_id))
 	print(f' →{m}[•] Your Ip  : {ip}')
-	print(f' →('{k}[•] Github   : {gh}')')
+	print(f →('{k}[•] Github   : {gh})')
 	print('')
 	print('  →[•] 1. Crack Publik  [ fitur √ ]')
 	print('  →[•] 2. Crack Pengikut [ fitur √ ] ')

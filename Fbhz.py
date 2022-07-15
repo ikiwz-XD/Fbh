@@ -575,7 +575,7 @@ def crack_file():
 		setting()
 #-------------[ PENGATURAN-IDZ ]---------------#
 def setting():
-	print(f'{x}{hh[•] 1. Akun Old ')
+	print(f'{x}{p}[•] 1. Akun Old ')
 	print(f'{b}[•] 2. Akun New ')
 	print(f'{hh}[•] 3. Random {x} {m}[Rekomended]{x}')
 

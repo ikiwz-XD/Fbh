@@ -612,7 +612,7 @@ def setting():
 		print('>> Pilih Yang Bener Kontol ')
 		setting()
 	elif hc in ['2','02']:
-		method.append('free')
+		method.append('mtouch')
 	elif hc in ['3','03']:
 		method.append('touch')
 	elif hc in ['4','04']:

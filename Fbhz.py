@@ -212,7 +212,7 @@ def menu(my_name,my_id):
 	print(f'')
 	print('  —>[•] 1. Crack Publik     [ fitur √ ]')
 	print('  —>[•] 2. Crack Pengikut   [ fitur √ ] ')
-	print('  —>[•] 3. Crack Grup       [ Fitur x ] ')
+	print('  —>[•] 3. Crack Grup \t{m} [ Fitur x ] ')
 	print('  —>[•] 4. Crack File       [ Fitur √ ]	')
 	print('  —>[•] 5. Hasil Crack  ')
 	print('  —>[•] 0. Keluar       ')

@@ -1126,7 +1126,7 @@ if __name__=='__main__':
 	except:pass
 	try:os.system('clear')
 	except:pass
-	alvino_xy(f'\n\t{x}[=]——> {m}WELCOME TO SCRIPT KIWZ-XD !! \t{x}<——[=]\n\t{x}[=]——> {m}Kenalin gw ikiw kls : XI TKJ A \n\t{x}<——[=]\n\t{x}[=]——> {m}ikiw Sehat Selalu Yah \n\t{x}<——[=]\n\t{x}[=]——> {m}Aminnn ....!! \n\t{x}<——[=]\n\t{x}[=]——> {m}SARAN PAKEK KARTU BUKAN WIFI ! ! \n\t{x}<——[=]{x}')
+	alvino_xy(f'\n\t{x}[=]——> {m}WELCOME TO SCRIPT KIWZ-XD !!\t{x}<——[=]\n\t{x}[=]——> {m}Kenalin gw ikiw kls : XI TKJ A\t{x}<——[=]\n\t{x}[=]——> {m}ikiw Sehat Selalu Yah\t{x}<——[=]\n\t{x}[=]——> {m}Aminnn ....!!\t{x}<——[=]\n\t{x}[=]——> {m}SARAN PAKEK KARTU BUKAN WIFI ! !\t{x}<——[=]{x}')
 	time.sleep(3)
 	login()
 

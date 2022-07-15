@@ -656,13 +656,13 @@ def passwrd():
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
 			frs = nmf.split(' ')[0]
-			pwv = ['sayang','katasandi','anjing',indonesia',]
+			pwv = ['sayang','katasandi','anjing']
 			if len(nmf)<6:
 				if len(frs)<3:
 					pass
 				else:
 					pwv.append(frs+'123')
-					pwv.append(frs+'1234')
+					pwv.append(frs+'2005')
 					pwv.append(frs+'12345')
 			else:
 				if len(frs)<3:
@@ -670,7 +670,7 @@ def passwrd():
 				else:
 					pwv.append(nmf)
 					pwv.append(frs+'123')
-					pwv.append(frs+'1234')
+					pwv.append(frs+'2005')
 					pwv.append(frs+'12345')
 			if 'ya' in pwpluss:
 				for xpwd in pwnya:

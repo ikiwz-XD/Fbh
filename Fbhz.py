@@ -222,7 +222,7 @@ def menu(my_name,my_id):
 	elif _____alvino__adijaya_____ in ['2']:
 		dump_pengikut()
 	elif _____alvino__adijaya_____ in ['3']:
-		dump_grup()
+		grup()
 	elif _____alvino__adijaya_____ in ['4']:
 		crack_file()
 	elif _____alvino__adijaya_____ in ['5']:
@@ -415,7 +415,7 @@ def lah():
 	print('')
 	pass
 	setting()
-def dump_grup():
+def grup():
 	print('')
 	id = input(f'{x}>> Masukkan Username Atau Idz Grup : ')
 	ua = 'Mozilla/5.0 (SymbianOS/9.3; Series60/3.2 NokiaE52-1/052.003; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.6.2 3gpp-gba'

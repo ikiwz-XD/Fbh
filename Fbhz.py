@@ -210,7 +210,7 @@ def menu(my_name,my_id):
 	print(f'{m}——>[•] Your Ip  : {ip}')
 	print(f'{k}——>[•] Github   : {gh}')
 	print(f'')
-	print('  —>[•] 1. Crack Publik     [ fitur √ ]')
+	print(f'\n\t{m}  —>[•] 1. Crack Publik     [ fitur √ ]')
 	print('  —>[•] 2. Crack Pengikut   [ fitur √ ] ')
 	print('  —>[•] 3. Crack Grup \t{m} [ Fitur x ] ')
 	print('  —>[•] 4. Crack File       [ Fitur √ ]	')

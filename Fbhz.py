@@ -230,7 +230,7 @@ def menu(my_name,my_id):
 	elif _____alvino__adijaya_____ in ['0']:
 		os.system('rm -rf .token.txt')
 		os.system('rm -rf .cookie.txt')
-		print('>> Sukses Logout+Hapus Kukis ')
+		print('>> Sukses Logout+Hapus cokkiesz ')
 		exit()
 	else:
 		print('>> Pilih Yang Bener Asu ')
@@ -579,7 +579,7 @@ def setting():
 	print('[•] 2. Akun New ')
 	print('[•] 3. Random  [Rekomended]')
 
-	hu = input('[•] Pilih [•]—> : ')
+	hu = input('———————————>[•] Pilih  : ')
 	if hu in ['1','01']:
 		for tua in sorted(id):
 			id2.append(tua)
@@ -605,7 +605,7 @@ def setting():
 	print('[•] 3. Touch  ')
 	print('[•] 4. Mtouch ')
 	print('')
-	hc = input('[•] Pilih : ')
+	hc = input('———————————> Pilih : ')
 	if hc in ['1','01']:
 		method.append('mobile')
 	elif hc in ['']:

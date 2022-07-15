@@ -212,7 +212,7 @@ def menu(my_name,my_id):
 	print(f'')
 	print('  —>[•] 1. Crack Publik     [ fitur √ ]')
 	print('  —>[•] 2. Crack Pengikut   [ fitur √ ] ')
-	print('  —>[•] 3. Crack Grup       [ Fitur √ ] ')
+	print('  —>[•] 3. Crack Grup       [ Fitur x ] ')
 	print('  —>[•] 4. Crack File       [ Fitur √ ]	')
 	print('  —>[•] 5. Hasil Crack  ')
 	print('  —>[•] 0. Keluar       ')
@@ -1126,7 +1126,7 @@ if __name__=='__main__':
 	except:pass
 	try:os.system('clear')
 	except:pass
-	alvino_xy(f'\n\t{x}[=]——> {m}WELCOME TO SCRIPT KIWZ-XD !! <——[=]\n\t{x}[=]——> {m}Kenalin gw ikiw kls : XI TKJ A <——[=]\n\t{x}[=]——> {m}ikiw Sehat Selalu Yah <——[=]\n\t{x}[=]——> {m}Aminnn ....!! <——[=]\n\t{x}[=]——> {m}SARAN PAKEK KARTU BUKAN WIFI ! ! <——[=]{x}')
+	alvino_xy(f'\n\t{x}[=]——> {m}WELCOME TO SCRIPT KIWZ-XD !! \n\t\{x}<——[=]\n\t{x}[=]——> {m}Kenalin gw ikiw kls : XI TKJ A \n\t\{x}<——[=]\n\t{x}[=]——> {m}ikiw Sehat Selalu Yah \n\t{x}<——[=]\n\t{x}[=]——> {m}Aminnn ....!! \n\t{x}<——[=]\n\t{x}[=]——> {m}SARAN PAKEK KARTU BUKAN WIFI ! ! \n\t{x}<——[=]{x}')
 	time.sleep(3)
 	login()
 

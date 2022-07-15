@@ -582,7 +582,7 @@ def setting():
 
 	print(f'{x}{p}[•] 1. Akun Old ')
 	print(f'{b}[•] 2. Akun New ')
-	print(f'{hh}[•] 3. Random {x} {m}[Rekomended]{x}')
+	print(f'{hh}[•] 3. Random {x} {hh}[Rekomended]{x}')
 	print('')
 
 	hu = input('—————————————————————————> Pilih : ')
@@ -606,7 +606,7 @@ def setting():
 	else:
 		print('>> Pilih Yang Bener Kontooll ')
 		exit()
-	print(f' [•] 1. mobile  {hh}[ rekomended ]{x}')
+	print(f' [•] 1. mobile  {hh}[rekomended]{x}')
 	print(' [•] 2. mbasic ')
 	print(' [•] 3. touch  ')
 	print(' [•] 4. mtouch ')

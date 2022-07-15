@@ -606,7 +606,7 @@ def setting():
 	else:
 		print('>> Pilih Yang Bener Kontooll ')
 		exit()
-	print(f'[•] 1. mobile  {hh}[ rekomended ]{x}')
+	print(f' [•] 1. mobile  {hh}[ rekomended ]{x}')
 	print(' [•] 2. mbasic ')
 	print(' [•] 3. touch  ')
 	print(' [•] 4. mtouch ')

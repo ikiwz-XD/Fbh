@@ -612,15 +612,15 @@ def setting():
 		print('>> Pilih Yang Bener Kontol ')
 		setting()
 	elif hc in ['2','02']:
-		method.append('mbasic')
+		method.append('mtouch')
 	elif hc in ['3','03']:
 		method.append('touch')
 	elif hc in ['4','04']:
-		method.append('mtouch')
+		method.append('mbasic')
 	else:
 		method.append('mobile')
 	print('')
-	_jembot_ = input('[•] Tambahkan Aplikasi ( Y/t ) ')
+	_jembot_ = input('[•] Tambahkan Aplikasi Terkait ( Y/t ) ')
 	if _jembot_ in ['']:
 		print('[•] Pilih Yang Bener Kontol ')
 		back()
@@ -672,11 +672,11 @@ def passwrd():
 			else:pass
 			if 'mobile' in method:
 				pool.submit(crack,idf,pwv)
-			elif 'mbasic' in method:
+			elif 'mtouch' in method:
 				pool.submit(crackfree,idf,pwv)
 			elif 'touch' in method:
 				pool.submit(cracktouch,idf,pwv)
-			elif 'mtouch' in method:
+			elif 'mbasic' in method:
 				pool.submit(crackmbasic,idf,pwv)
 			else:
 				pool.submit(crackmbasic,idf,pwv)

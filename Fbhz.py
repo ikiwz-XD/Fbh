@@ -612,11 +612,11 @@ def setting():
 		print('>> Pilih Yang Bener Kontol ')
 		setting()
 	elif hc in ['2','02']:
-		method.append('mtouch')
+		method.append('mbasic')
 	elif hc in ['3','03']:
 		method.append('touch')
 	elif hc in ['4','04']:
-		method.append('mbasic')
+		method.append('mtouch')
 	else:
 		method.append('mobile')
 	print('')

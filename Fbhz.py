@@ -575,7 +575,7 @@ def crack_file():
 		setting()
 #-------------[ PENGATURAN-IDZ ]---------------#
 def setting():
-cetak(nel('\n\tPilih Salah Satu : Pake Angka'))
+
 	print(f'{x}{p}[•] 1. Akun Old ')
 	print(f'{b}[•] 2. Akun New ')
 	print(f'{hh}[•] 3. Random {x} {m}[Rekomended]{x}')

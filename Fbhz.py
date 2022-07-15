@@ -498,8 +498,8 @@ def grup1(urls):
 						continue
 					else:
 						id.append(idku)
-						xy = random.choice([m,k,h,u,b,x])
-						print(f'\r	———>> {x}({xy} %s {x}) <<———'%(len(id)), end=");sys.stdout.flush()
+						xy = random.choice([m,k,u,b,x])
+						print(f'\r	———>> {x}({xy} %s {x}) <<———'%(len(id)), end="");sys.stdout.flush()
 				else:
 					continue
 			try:

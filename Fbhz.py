@@ -575,9 +575,9 @@ def crack_file():
 		setting()
 #-------------[ PENGATURAN-IDZ ]---------------#
 def setting():
-	print(f'{x}[•] 1. Akun Old ')
-	print('[•] 2. Akun New ')
-	print('[•] 3. Random  [Rekomended]')
+	print(f'{x}{hh[•] 1. Akun Old ')
+	print(f'{b}[•] 2. Akun New ')
+	print(f'{hh}[•] 3. Random {x} {m}[Rekomended]{x}')
 
 	hu = input('———————————> Pilih : ')
 	if hu in ['1','01']:

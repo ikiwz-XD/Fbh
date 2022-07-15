@@ -600,10 +600,10 @@ def setting():
 	else:
 		print('>> Pilih Yang Bener Kontooll ')
 		exit()
-	print('[•] 1. Mobile  [ rekomended ]')
-	print('[•] 2. Mbasic ')
-	print('[•] 3. Touch  ')
-	print('[•] 4. Mtouch ')
+	print('[•] 1. mobile  [ rekomended ]')
+	print('[•] 2. mbasic ')
+	print('[•] 3. touch  ')
+	print('[•] 4. mtouch ')
 	print('')
 	hc = input('———————————> Pilih : ')
 	if hc in ['1','01']:
@@ -612,11 +612,11 @@ def setting():
 		print('>> Pilih Yang Bener Kontol ')
 		setting()
 	elif hc in ['2','02']:
-		method.append('mtouch')
+		method.append('mbasic')
 	elif hc in ['3','03']:
 		method.append('touch')
 	elif hc in ['4','04']:
-		method.append('mbasic')
+		method.append('mtouch')
 	else:
 		method.append('mobile')
 	print('')

@@ -674,9 +674,9 @@ def passwrd():
 			if 'mobile' in method:
 				pool.submit(crack,idf,pwv)
 			elif 'touch' in method:
-				pool.submit(crackfm2,idf,pwv)
-			elif 'mtouch' in method:
 				pool.submit(cracktouch,idf,pwv)
+			elif 'mtouch' in method:
+				pool.submit(crackfree,idf,pwv)
 			elif 'mbasic' in method:
 				pool.submit(crackmbasic,idf,pwv)
 			else:
@@ -760,7 +760,7 @@ def crack(idf,pwv):
 			time.sleep(1)
 	loop+=1
 #------------------[ METHODE-MBASIC-2 ]-------------------#
-def crackm2(idf,pwv):
+def crackfree(idf,pwv):
 	global loop,ok,cp
 	sys.stdout.write(f"\r💐 {P}[{bo}Mbasic{P}]{P}[{b}{loop}{P}/{p}{len(id)}{P}]—{P}[{H}{ok}{P}]—{P}[{k}{cp}{x}]—[{m}{'{:.0%}'.format(loop/float(len(id)))}{P}]  "),
 	sys.stdout.flush()

@@ -575,11 +575,12 @@ def crack_file():
 		setting()
 #-------------[ PENGATURAN-IDZ ]---------------#
 def setting():
+cetak(nel('\tPilih Salah Satu : Pake Angka[blue]'(my_name)))
 	print(f'{x}{p}[•] 1. Akun Old ')
 	print(f'{b}[•] 2. Akun New ')
 	print(f'{hh}[•] 3. Random {x} {m}[Rekomended]{x}')
 
-	hu = input('———————————> Pilih : ')
+	hu = input('—————————————————————————> Pilih : ')
 	if hu in ['1','01']:
 		for tua in sorted(id):
 			id2.append(tua)

@@ -586,7 +586,7 @@ def setting():
 	print('')
 
 	hu = input('—————————————————————————> Pilih : ')
-	print'')
+	print('')
 	if hu in ['1','01']:
 		for tua in sorted(id):
 			id2.append(tua)

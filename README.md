@@ -22,3 +22,4 @@ $python kz.py
 
 
 #Gunakan Script ini Sebijak Mungkin!
+.

@@ -14,7 +14,7 @@ $ls
 
 $git pull
 
-$python Fbhz.py
+$python kz.py
 
 
 

